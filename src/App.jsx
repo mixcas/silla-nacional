@@ -24,7 +24,9 @@ const router = createBrowserRouter([
       },
     ],
   }
-]);
+], {
+  basename: '/silla-nacional',
+});
 
 function App() {
   return (
